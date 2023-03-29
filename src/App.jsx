@@ -3,9 +3,12 @@ import { useState } from "react";
 import { Avatar, Exhibit } from "@readyplayerme/visage";
 
 function App() {
-  const [avatarlink, setAvatarLink] = useState("");
+  const [avatarlink, setAvatarLink] = useState("https://models.readyplayer.me/63e9d717d79584041a60212c.glb");
 
   const GetAvatar = async () => {
+    if (avatarlink == null || avatarlink == '') {
+      return false;
+    }
     setAvatarLink(avatarlink);
   };
 
