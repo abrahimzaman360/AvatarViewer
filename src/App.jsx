@@ -98,7 +98,7 @@ function App() {
                 )}
               </div>
             </section>
-            <h2 className="text-center px-2 text-red-500 font-medium">After Creating Your Avatar, Paste Link in Avatar Viewer Url.</h2>
+            <h2 className="text-center px-2 sm:border-0 border-2 py-1 from-neutral-800 cursor-none to-red-300  text-red-500 font-medium">After Creating Your Avatar, Paste Link in Avatar Viewer Url.</h2>
           </div>
         ) : (
           <section class=" dark:bg-gray-900">
@@ -159,7 +159,7 @@ function App() {
         )}
       </div>
       <footer>
-        <p className="text-center sm:px-2 px-3">Made with ❤️ by <a href="https://abrahimzaman.com" className="font-bold text-green-400" target="_blank">Ibrahim Zaman</a> or Find Me on  <a href="https://github.com/abrahimzaman360" className="font-bold text-green-400" target="_blank">Github</a></p>
+        <p className="text-center sm:border-0 border-2 py-1 from-neutral-800 cursor-none to-red-300 sm:px-2 px-3">Made with ❤️ by <a href="https://abrahimzaman.com" className="font-bold text-green-400" target="_blank">Ibrahim Zaman</a> or Find Me on  <a href="https://github.com/abrahimzaman360" className="font-bold text-green-400" target="_blank">Github</a></p>
       </footer>
     </>
   );
