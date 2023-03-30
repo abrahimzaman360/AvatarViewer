@@ -159,7 +159,7 @@ function App() {
         )}
       </div>
       <footer>
-        <p className="text-center sm:px-3">Made with ❤️ by <a href="https://abrahimzaman.com" className="font-bold text-green-400" target="_blank">Ibrahim Zaman</a> or Find Me on  <a href="https://github.com/abrahimzaman360" className="font-bold text-green-400" target="_blank">Github</a></p>
+        <p className="text-center sm:px-2 px-3">Made with ❤️ by <a href="https://abrahimzaman.com" className="font-bold text-green-400" target="_blank">Ibrahim Zaman</a> or Find Me on  <a href="https://github.com/abrahimzaman360" className="font-bold text-green-400" target="_blank">Github</a></p>
       </footer>
     </>
   );
