@@ -75,9 +75,9 @@ function App() {
 
   return (
     <>
-      <div className="mb-1 flex flex-col md:flex-row justify-between sm:px-5 gap-x-16 items-center">
+      <div className="border-2 pb-3 mb-2 flex flex-col md:flex-row justify-between sm:px-5 gap-x-16 items-center">
         <h1 className="text-center dark:text-yellow-500 text-yellow-600 font-bold text-3xl mt-4">
-          ReadyPlayer.me - Digital Avatar Booth
+          AvatarFun - Digital Avatar Creator
         </h1>
         <button className="mt-4" onClick={displayIframe}>
           {iframe ? "hide Avatar Creator" : "Show Avatar Creator"}
@@ -86,7 +86,10 @@ function App() {
       <div>
         {!creatormode ? (
           <div>
-            <section className="text-xl font-mono text-center gap-2 flex flex-col">
+            <section className="text-xl font-mono text-center gap-1 flex flex-col">
+              <h1 class="text-xl border-2 sm:mx-[30em] from-neutral-800 cursor-none to-red-300 font-semibold text-gray-200 dark:text-gray-100">
+                Avatar Creator
+              </h1>
               <div>
                 {iframe && (
                   <iframe
@@ -98,7 +101,9 @@ function App() {
                 )}
               </div>
             </section>
-            <h2 className="text-center px-2 sm:border-0 border-2 py-1 from-neutral-800 cursor-none to-red-300  text-red-500 font-medium">After Creating Your Avatar, Paste Link in Avatar Viewer Url.</h2>
+            <h2 className="text-center px-2 sm:border-0 py-1 from-neutral-800 cursor-none to-red-300  text-red-500 font-medium">
+              After Creating Your Avatar, Paste Link in Avatar Viewer Url.
+            </h2>
           </div>
         ) : (
           <section class=" dark:bg-gray-900">
@@ -159,7 +164,24 @@ function App() {
         )}
       </div>
       <footer>
-        <p className="text-center sm:border-0 border-2 py-1 from-neutral-800 cursor-none to-red-300 sm:px-2 px-3">Made with ❤️ by <a href="https://abrahimzaman.com" className="font-bold text-green-400" target="_blank">Ibrahim Zaman</a> or Find Me on  <a href="https://github.com/abrahimzaman360" className="font-bold text-green-400" target="_blank">Github</a></p>
+        <p className="text-center py-1 from-neutral-800 cursor-none to-red-300 sm:px-2 px-3">
+          Made with ❤️ by{" "}
+          <a
+            href="https://abrahimzaman.com"
+            className="font-bold text-green-400"
+            target="_blank"
+          >
+            Ibrahim Zaman
+          </a>{" "}
+          or Find Me on{" "}
+          <a
+            href="https://github.com/abrahimzaman360"
+            className="font-bold text-green-400"
+            target="_blank"
+          >
+            Github
+          </a>
+        </p>
       </footer>
     </>
   );
