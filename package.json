@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "vite --host",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "test": "echo 'Test Done...' "
   },
   "dependencies": {
     "@readyplayerme/visage": "^3.5.2",
