@@ -75,7 +75,7 @@ function App() {
 
   return (
     <>
-      <div className="border-b-2 pb-3 mb-2 flex flex-col md:flex-row justify-between sm:px-5 gap-x-16 items-center">
+      <div className="border-b-2 border-blue-700 pb-3 mb-2 flex flex-col md:flex-row justify-between sm:px-5 gap-x-16 items-center">
         <h1 className="text-center dark:text-yellow-500 text-yellow-600 font-bold text-3xl mt-4">
           AvatarFun - Digital Avatar Creator
         </h1>
