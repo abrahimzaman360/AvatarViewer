@@ -98,15 +98,16 @@ function App() {
                 )}
               </div>
             </section>
+            <h2 className="text-center text-red-500 font-medium">After Creating Your Avatar, Paste Link in Avatar Viewer Url.</h2>
           </div>
         ) : (
           <section class=" dark:bg-gray-900">
             <div class="max-w-3xl px-6 py-8 mx-auto text-center">
-              <h1 class="text-xl font-semibold text-gray-200 dark:text-gray-100">
+              <h1 class="text-xl border-2 py-1 from-neutral-800 cursor-none to-red-300 font-semibold text-gray-200 dark:text-gray-100">
                 Avatar Viewer
               </h1>
               {
-                <div className="mt-16 sm:ml-2 w-[400px] sm:w-[700px] h-[600px]">
+                <div className="mt-5 sm:ml-2 w-[400px] sm:w-[700px] h-[600px]">
                   <Avatar
                     ambientLightColor="#fff5b6"
                     ambientLightIntensity={0.25}
