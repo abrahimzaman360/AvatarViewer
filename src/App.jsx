@@ -87,7 +87,7 @@ function App() {
         {!creatormode ? (
           <div>
             <section className="text-xl font-mono text-center gap-1 flex flex-col">
-              <h1 class="text-xl border-2 sm:mx-[30em] from-neutral-800 cursor-none to-red-300 font-semibold text-gray-200 dark:text-gray-100">
+              <h1 class="text-xl sm:mx-[30em] from-neutral-800 cursor-none to-red-300 font-semibold text-gray-200 dark:text-gray-100">
                 Avatar Creator
               </h1>
               <h3 className="text-center px-2 sm:border-0 py-1 from-neutral-800 cursor-none to-red-300  text-red-500 font-medium">
