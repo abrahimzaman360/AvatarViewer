@@ -88,7 +88,7 @@ function App() {
           <div>
             <section className="text-xl font-mono text-center gap-2 flex flex-col">
               <div>
-                {!iframe && (
+                {iframe && (
                   <iframe
                     id="frame"
                     className="frame"
