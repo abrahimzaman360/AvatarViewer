@@ -75,8 +75,8 @@ function App() {
 
   return (
     <>
-      <div className="mb-5 flex flex-col md:flex-row justify-between sm:px-5 gap-x-16 items-center">
-        <h1 className="text-center font-bold text-3xl mt-4">
+      <div className="mb-1 flex flex-col md:flex-row justify-between sm:px-5 gap-x-16 items-center">
+        <h1 className="text-center dark:text-yellow-500 text-yellow-600 font-bold text-3xl mt-4">
           ReadyPlayer.me - Digital Avatar Booth
         </h1>
         <button className="mt-4" onClick={displayIframe}>
@@ -98,11 +98,11 @@ function App() {
                 )}
               </div>
             </section>
-            <h2 className="text-center text-red-500 font-medium">After Creating Your Avatar, Paste Link in Avatar Viewer Url.</h2>
+            <h2 className="text-center px-2 text-red-500 font-medium">After Creating Your Avatar, Paste Link in Avatar Viewer Url.</h2>
           </div>
         ) : (
           <section class=" dark:bg-gray-900">
-            <div class="max-w-3xl px-6 py-8 mx-auto text-center">
+            <div class="max-w-3xl px-6 py-6 mx-auto text-center">
               <h1 class="text-xl border-2 py-1 from-neutral-800 cursor-none to-red-300 font-semibold text-gray-200 dark:text-gray-100">
                 Avatar Viewer
               </h1>
@@ -158,6 +158,9 @@ function App() {
           </section>
         )}
       </div>
+      <footer>
+        <p className="text-center sm:px-3">Made with ❤️ by <a href="https://abrahimzaman.com" className="font-bold text-green-400" target="_blank">Ibrahim Zaman</a> or Find Me on  <a href="https://github.com/abrahimzaman360" className="font-bold text-green-400" target="_blank">Github</a></p>
+      </footer>
     </>
   );
 }
