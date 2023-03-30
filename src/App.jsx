@@ -90,6 +90,9 @@ function App() {
               <h1 class="text-xl border-2 sm:mx-[30em] from-neutral-800 cursor-none to-red-300 font-semibold text-gray-200 dark:text-gray-100">
                 Avatar Creator
               </h1>
+              <h3 className="text-center px-2 sm:border-0 py-1 from-neutral-800 cursor-none to-red-300  text-red-500 font-medium">
+                After Creating Your Avatar, Paste Link in Avatar Viewer Url.
+              </h3>
               <div>
                 {iframe && (
                   <iframe
@@ -101,9 +104,6 @@ function App() {
                 )}
               </div>
             </section>
-            <h2 className="text-center px-2 sm:border-0 py-1 from-neutral-800 cursor-none to-red-300  text-red-500 font-medium">
-              After Creating Your Avatar, Paste Link in Avatar Viewer Url.
-            </h2>
           </div>
         ) : (
           <section class=" dark:bg-gray-900">
