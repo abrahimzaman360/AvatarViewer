@@ -83,6 +83,7 @@ function App() {
           {iframe ? "hide Avatar Creator" : "Show Avatar Creator"}
         </button>
       </div>
+      {/* Hello World! */}
       <div>
         {!creatormode ? (
           <div>
