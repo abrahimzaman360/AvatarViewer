@@ -75,16 +75,16 @@ function App() {
 
   return (
     <>
-      <div className="">
-        <div className="mb-5 flex flex-col md:flex-row justify-center gap-x-16 items-center">
-          <h1 className="text-center font-bold text-3xl mt-4">
-            ReadyPlayer.me - Digital Avatar Booth
-          </h1>
-          <button className="mt-4" onClick={displayIframe}>
-            {iframe ? "hide Avatar Creator" : "Show Avatar Creator"}
-          </button>
-        </div>
-        {creatormode ? (
+      <div className="mb-5 flex flex-col md:flex-row justify-between sm:px-5 gap-x-16 items-center">
+        <h1 className="text-center font-bold text-3xl mt-4">
+          ReadyPlayer.me - Digital Avatar Booth
+        </h1>
+        <button className="mt-4" onClick={displayIframe}>
+          {iframe ? "hide Avatar Creator" : "Show Avatar Creator"}
+        </button>
+      </div>
+      <div>
+        {!creatormode ? (
           <div>
             <section className="text-xl font-mono text-center gap-2 flex flex-col">
               <div>
